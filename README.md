@@ -1,86 +1,26 @@
-The goal of this coding exam is to quickly get you off the ground with **Lists and Keys**.
+ diving deep into the world of **Lists and Keys** with a fun and interactive project: **Multilingual Greetings App**. 🌐👋
 
-### Refer to the image below:
+### Project Overview:
+The app allows users to switch between different languages and see the corresponding greeting image. It's a great way to practice handling lists and keys in React, ensuring efficient rendering and updates.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/multilingual-greetings-output.gif" alt="multilingual-greetings" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+### Key Features:
+- Default language set to English with its greeting image.
+- Switches greeting images dynamically based on the selected language.
+- Utilizes a list of image details, making it a great exercise in managing and rendering lists in React.
 
-### Design Files
+### Technologies Used:
+- **React.js** for building the user interface.
+- **styled-components** for styling the components.
 
-<details>
-<summary>Click to view</summary>
+### Check out the project in action:
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/multilingual-greetings-lg-output.png)
+![Multilingual Greetings App](https://assets.ccbp.in/frontend/content/react-js/multilingual-greetings-output.gif)
 
-</details>
+### Design Files:
+[Medium, Large, and Extra Large](https://assets.ccbp.in/frontend/content/react-js/multilingual-greetings-lg-output.png)
 
-### Set Up Instructions
+### Set Up Instructions:
+1. Download dependencies: `npm install`
+2. Start the app: `npm start`
 
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the **English** language button should be active and the **English** greeting image should be displayed.
-- When the user clicks on a language button, then the corresponding greeting image should be displayed.
-- The `App` component consists of the `languageGreetingsList`. It consists of a list of image details objects with the following properties in each object
-
-  | Key          | Data Type |
-  | ------------ | --------- |
-  | id           | Number    |
-  | imageUrl     | String    |
-  | buttonText   | String    |
-  | imageAltText | String    |
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instruction is required for the tests to pass**
-
-- The image should have the alt attribute value as the key `imageAltText` from `languageGreetingsList` provided
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #db1c48; width: 150px; padding: 10px; color: black">Hex: #db1c48</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
+Feel free to explore and give your feedback! Looking forward to sharing more projects in the coming days. 🚀
